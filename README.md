@@ -112,6 +112,8 @@ Depending on the chosen format (`-f`), networks can be visualized in Cytoscape o
    In the left panel under **Node color by**, choose **metadata | syntenome**.  
    This will color genomes based on shared cluster block composition (syntenomes) and leave cluster block nodes gray. Highly shared blocks will draw their connected genomes toward the center.
 
+![ORION example](orion/NCBI_test_input/ORION_example.png)
+
 ## Citation
 If you found this tool useful, please cite: https://github.com/zschreib/orion
 
