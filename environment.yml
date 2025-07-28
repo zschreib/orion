@@ -1,0 +1,17 @@
+name: orion
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - numpy
+  - pandas
+  - networkx
+  - scipy
+  - statsmodels
+  - joblib
+  - biopython
+  - prodigal
+  - mmseqs2
+  - tqdm
+  - python-louvain
