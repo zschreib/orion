@@ -90,6 +90,28 @@ NCBI_test_results/
 ```
 More details on each output files will be provided soon. 
 
+## Network Visuals
+
+Depending on the chosen format (`-f`), networks can be visualized in Cytoscape or Cosmograph. Since Cosmograph does not accept GraphML, we’ll use CSV files:
+
+1. **Open Cosmograph:**  
+   Go to [Cosmograph](https://cosmograph.app/run/).
+
+2. **Upload files:**  
+   - Drag `genome_to_cb_network.csv` into **Select data file**  
+   - Drag `genome_to_cb_metadata.csv` into **Select metadata file**
+
+3. **Map columns:**  
+   - Set **Source column** → `Source`  
+   - Set **Target column** → `Target`
+
+4. **Launch the network:**  
+   Click **Launch** to render the graph.
+
+5. **Color nodes by syntenome:**  
+   In the left panel under **Node color by**, choose **metadata | syntenome**.  
+   This will color genomes based on shared cluster block composition (syntenomes) and leave cluster block nodes gray. Highly shared blocks will draw their connected genomes toward the center.
+
 ## Citation
 If you found this tool useful, please cite: https://github.com/zschreib/orion
 
@@ -101,4 +123,8 @@ zschreib@udel.edu
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 see the LICENSE file for details.
+This project is licensed under the GNU General Public License v3.0 see the LICENSE file for details
+
+## Acknowledgments
+
+Visuals provided by [Cosmograph](https://cosmograph.app/)
