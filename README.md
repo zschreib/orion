@@ -115,7 +115,9 @@ Depending on the chosen format (`-f`), networks can be visualized in Cytoscape o
 ![ORION example](https://raw.githubusercontent.com/zschreib/orion/main/NCBI_test_input/ORION_example.png)
 
 ## Citation
-If you found this tool useful, please cite: https://github.com/zschreib/orion
+If you found this tool useful, please cite: 
+
+Schreiber, Z. D. ORION: *ORf Interaction Ontology Network*. GitHub. Retrieved July 29, 2025, from [https://github.com/zschreib/orion/](https://github.com/zschreib/orion/).
 
 ## Authors
 
