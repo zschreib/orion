@@ -1,4 +1,4 @@
-# ORf Interaction Ontology Network (ORION) ![Version](https://img.shields.io/badge/version-0.80_beta-blue)
+# ORf Interaction Ontology Network (ORION) ![Version](https://img.shields.io/badge/version-1.0.0-brightgreen) ![Status](https://img.shields.io/badge/status-stable-brightgreen)
 
 ORf Interaction Ontology Network (ORION), a computational framework designed to explore patterns of protein cluster (PC) organization across genomes, contigs, or viral operational taxonomic unit (vOTU) sequences. 
 
