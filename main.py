@@ -7,7 +7,7 @@ import logging
 from pathlib import Path
 
 # Version
-__version__ = '0.80-beta'
+__version__ = '1.0.0'
 
 def main():
     parser = argparse.ArgumentParser(
