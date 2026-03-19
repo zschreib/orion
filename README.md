@@ -6,6 +6,8 @@ ORf Interaction Ontology Network (ORION), a computational framework designed to 
 
 ORION detects shared genomic features by analyzing the local arrangement of protein clusters (PCs) around each open reading frame (ORF). It maps each ORF position to its corresponding PC, then defines cluster blocks (CBs) using a sliding window of user‑specified length. For example, a window size of three includes the focal PC plus its immediate neighbors; larger windows capture more distant PCs. By comparing the relative order of PCs within each window, ORION maintains consistent pattern matching even when ORFs shift due to rearrangements. Increasing the window size tightens the required cluster arrangement, revealing more highly conserved synteny across genomes.
 
+![ORION Workflow](2_00_ORION_concept_orfs.png)
+
 ### Dependencies
 
 * `orion` can be ran either on a machine with a properly set up python environment or by creating a custom [Conda](https://docs.conda.io/en/latest/) environment if you do not wish to change your current setup (recommended).
