@@ -4,7 +4,9 @@ ORf Interaction Ontology Network (ORION), a computational framework designed to 
 
 ## Description
 
-ORION detects shared genomic features by analyzing the local arrangement of protein clusters (PCs) around each open reading frame (ORF). It maps each ORF position to its corresponding PC, then defines cluster blocks (CBs) using a sliding window of user‑specified length. For example, a window size of three includes the focal PC plus its immediate neighbors; larger windows capture more distant PCs. By comparing the relative order of PCs within each window, ORION maintains consistent pattern matching even when ORFs shift due to rearrangements. Increasing the window size tightens the required cluster arrangement, revealing more highly conserved synteny across genomes.
+Understanding how proteins are functionally organized across genomes requires more than sequence similarity alone. Co-occurring genes often reflect co-functional relationships shaped by evolutionary pressure, and these neighborhood patterns can reveal biological logic that individual protein analysis misses.
+
+ORION detects shared genomic features by analyzing the local arrangement of protein clusters (PCs) around each open reading frame (ORF). It maps each ORF position to its corresponding PC, then defines cluster blocks (CBs) using a sliding window of user-specified length. For example, a window size of three includes the focal PC plus its immediate neighbors; larger windows capture more distant PCs. By comparing the relative order of PCs within each window, ORION maintains consistent pattern matching even when ORFs shift due to rearrangements. Increasing the window size tightens the required cluster arrangement, revealing more highly conserved synteny across genomes.
 
 ![ORION Workflow](2_00_ORION_concept_orfs.png)
 
@@ -29,7 +31,7 @@ mamba activate orion
 #OR
 conda activate orion
 ```
-* Tool Check. If you recieve any errors here do not proceede until fixed.
+* Tool Check. If you receive any errors here do not proceed until fixed.
 ```
 mmseqs -h
 prodigal -h
@@ -90,7 +92,6 @@ NCBI_test_results/
     ├── NCBI_test_orf_metadata.tsv
     └── NCBI_test_orfs.pep
 ```
-More details on each output files will be provided soon. 
 
 ## Network Visuals
 
